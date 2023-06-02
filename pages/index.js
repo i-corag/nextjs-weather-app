@@ -41,7 +41,8 @@ export default function Home() {
         />
 
         {/* search */}
-        <div className='relative flex justify-between items-center max-w-[500px] w-4/5 m-auto pt-4 text-white z-10'>
+        <div className='relative flex flex-col justify-between gap-4 items-center max-w-[500px] w-4/5 m-auto pt-4 text-white z-10 mt-2'>
+          <p className='text-4xl'>Welcome to Weather App</p>
           <form
             onSubmit={featchWeather}
             className='flex justify-between items-center w-full m-auto p-3 bg-transparent border-2 border-white text-white rounded-2xl'>
